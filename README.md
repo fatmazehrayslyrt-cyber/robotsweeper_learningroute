@@ -21,3 +21,13 @@ In Record mode, the robot should be able to trace the line properly while memori
 
 ![WhatsApp Görsel 2025-11-30 saat 13 22 59_f055d78b](https://github.com/user-attachments/assets/b55a444a-be86-4ca7-b1dd-cb13d7ba8bd3)
 
+| Component                | Function                                       | STM32F103C8 Pin(s)                                                           |
+| ------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------- |
+| **STM32F103C8**          | Main MCU: PWM, ADC, UART, GPIO control         | PA0, PA1, PA4, PA5, PA6, PA2, PA3, PA8, PA9, PB0, PB1, PB5, PB10, PB11, PC13 |
+| **L298N**                | Dual H-bridge motor driver (left/right motors) | PA8, PA9, PB0, PB1, PB10, PB11                                               |
+| **IR Sensor Array (5×)** | Line detection, analog outputs                 | PA0, PA1, PA4, PA5, PA6                                                      |
+| **HC-05 Bluetooth**      | Wireless UART communication                    | PA2, PA3                                                                     |
+| **Button**               | Mode switch (Record/Replay)                    | PC13                                                                         |
+| **LED**                  | Status indication                              | PB5                                                                          |
+
+
